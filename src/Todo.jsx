@@ -51,7 +51,7 @@ export default function TodoListItem({ todo, inprogress, id, link }) {
               </>
             ) : (
               <>
-                <Typography variant="subtitle1" style={{paddingBottom: 10}}>{todo}</Typography>
+                <Typography variant="h6" style={{paddingBottom: 15}}>{todo}</Typography>
                 <a href={link} target="_blank">{link}</a>
               </>
             )
