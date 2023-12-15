@@ -51,7 +51,7 @@ function App() {
           width: "100%",
         }}
       >
-        <h1>Rental Management Todo 😃</h1>
+        <h1>Rental Management Todos 😃</h1>
         <form>
           <TextField
             id="standard-basic"
